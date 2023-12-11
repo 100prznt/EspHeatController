@@ -12,5 +12,6 @@ Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Hom
 - header for analog input
 
 ## TODOs
-- [ ] Radien an PCB ergänzen, kollidiert im oberen Bereich mit Gehäuse
+- [ ] Radien an PCB ergänzen, sehr eng im oberen Bereich
 - [ ] Taster für Reset ergänzen
+- [ ] Verfügbarkeit USB Buchse prüfen, ggf. USB-C Buchse nutzen
