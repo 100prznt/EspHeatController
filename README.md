@@ -1,4 +1,4 @@
-![CAD rendering HeatController PCB](docu/ASY_Spelsberg_Box_2023-Dec-10_09-03-57PM-000_CustomizedView38378331988.png)
+![CAD rendering HeatController PCB](docu/espheatcontroller_pcb_redering03.png)
 
 # HeatController
 Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Home Assistant.
@@ -12,6 +12,6 @@ Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Hom
 - header for analog input
 
 ## TODOs
-- [ ] Radien an PCB ergänzen, sehr eng im oberen Bereich
-- [ ] Taster für Reset ergänzen
-- [ ] Verfügbarkeit USB Buchse prüfen, ggf. USB-C Buchse nutzen
+- [x] Radien an PCB ergänzen, sehr eng im oberen Bereich
+- [x] Taster für Reset ergänzen
+- [x] Verfügbarkeit USB Buchse prüfen, ggf. USB-C Buchse nutzen
