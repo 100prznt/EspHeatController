@@ -15,6 +15,7 @@ Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Hom
 
 ## TODOs
 - [ ] Add status LED
+- [ ] Check availability TPS2104DBVR
 
 ## Assembly
 The PCB fits into a [Spelsberg TG PC 1612-9-to](https://www.spelsberg.de/industrieleergehaeuse/glatt-mit-befestigungsnocken/20100701/) enclosure. There is lots of space for the 230 V wiring in the lower area. I have installed PowerCon sockets from Neutrik here and M8 sockets for the DS818B20 sensors.
