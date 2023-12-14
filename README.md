@@ -21,3 +21,19 @@ Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Hom
 The PCB fits into a [Spelsberg TG PC 1612-9-to](https://www.spelsberg.de/industrieleergehaeuse/glatt-mit-befestigungsnocken/20100701/) enclosure. There is lots of space for the 230 V wiring in the lower area. I have installed PowerCon sockets from Neutrik here and M8 sockets for the DS818B20 sensors.
 
 ![CAD rendering HeatController PCB](docu/espheatcontroller_redering01.png)
+
+## Home Assistant
+
+### Dashboard
+The initial use of the __EspHeatController__ for me was as a frost detector in addition to a pipe heating system. I created a separate dashboard in Home Assistant for this use case.
+
+![Dashbord for the EspHeatController](dashboard/HomeAssistant_Dashboard.png)
+
+You can find the configuration for this dashboard here:
+
+* [config_mushroom.yaml](dashboard/config_mushroom.yaml)
+
+The following HACS extensions are required for this dashboard:
+
+* [Mushroom](https://github.com/piitaya/lovelace-mushroom)
+* [UI Card for Better Thermostat](https://github.com/KartoffelToby/better-thermostat-ui-card)
