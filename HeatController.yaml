@@ -32,6 +32,11 @@ wifi:
 
 captive_portal:
 
+# Status LED
+status_led:
+  pin:
+    number: GPIO
+    inverted: true
 
 # 1-wire config
 dallas:

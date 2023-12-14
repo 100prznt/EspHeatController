@@ -14,7 +14,7 @@ Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Hom
 - header for analog input
 
 ## TODOs
-- [ ] Add status LED
+- [x] Add status LED
 - [ ] Check availability TPS2104DBVR
 
 ## Assembly
