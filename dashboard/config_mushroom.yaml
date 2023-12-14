@@ -1,0 +1,59 @@
+cards:
+  - type: vertical-stack
+    cards:
+      - type: custom:mushroom-title-card
+        title: Frostschutz Saugsseite
+        subtitle: Rohrbegleitheizung der saugseitigen Verrohrung im Technikhaus.
+      - type: custom:better-thermostat-ui-card
+        entity: climate.frost_watcher_1_regler_kanal_1
+        disable_buttons: true
+        set_current_as_main: true
+        features:
+          - type: climate-hvac-modes
+            hvac_modes:
+              - 'off'
+              - heat
+      - chart_type: line
+        period: hour
+        type: statistics-graph
+        entities:
+          - entity: sensor.frost_watcher_1_frost_sensor_1
+        stat_types:
+          - mean
+        hide_legend: true
+        logarithmic_scale: false
+        days_to_show: 1
+      - type: history-graph
+        entities:
+          - entity: switch.frost_watcher_1_heater_relay_ch1
+            name: Heizung
+        hours_to_show: 24
+  - type: vertical-stack
+    cards:
+      - type: custom:mushroom-title-card
+        title: Frostschutz Druckseite
+        subtitle: Rohrbegleitheizung der druckseitigen Verrohrung im Technikhaus.
+      - type: custom:better-thermostat-ui-card
+        entity: climate.frost_watcher_1_regler_kanal_2
+        disable_buttons: true
+        set_current_as_main: true
+        features:
+          - type: climate-hvac-modes
+            hvac_modes:
+              - 'off'
+              - heat
+      - chart_type: line
+        period: hour
+        type: statistics-graph
+        entities:
+          - entity: sensor.frost_watcher_1_frost_sensor_2
+        stat_types:
+          - mean
+        hide_legend: true
+        logarithmic_scale: false
+        days_to_show: 1
+      - type: history-graph
+        entities:
+          - entity: switch.frost_watcher_1_heater_relay_ch2
+            name: Heizung
+        hours_to_show: 24
