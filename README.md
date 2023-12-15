@@ -1,4 +1,4 @@
-![CAD rendering HeatController PCB](docu/ehc_pcb_redering_topview_cropped.png)
+![CAD rendering EspHeatController PCB](docu/ehc_pcb_redering_topview_cropped.png)
 
 # HeatController
 Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Home Assistant.
@@ -16,7 +16,7 @@ Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Hom
 ## Assembly
 The PCB fits into a [Spelsberg TG PC 1612-9-to](https://www.spelsberg.de/industrieleergehaeuse/glatt-mit-befestigungsnocken/20100701/) enclosure. There is lots of space for the 230 V wiring in the lower area. I have installed PowerCon sockets from Neutrik here and M8 sockets for the DS818B20 sensors.
 
-![CAD rendering HeatController PCB](docu/ehc_redering_rightisoview.png)
+![CAD rendering EspHeatController](docu/ehc_redering_rightisoview.png)
 
 ## Home Assistant
 
@@ -39,3 +39,5 @@ As mentioned above, I use the __EspHeatController__ as a frost protector, the ES
 
 ## Hardware Versions
 See [versions.md](versions.md) for hardware version details.
+
+![CAD rendering EspHeatController PCB w/o packages](docu/ehc_pcbonly_redering_topview_cropped.png)
