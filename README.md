@@ -27,7 +27,7 @@ The initial use of the __EspHeatController__ for me was as a frost watcher in ad
 
 You can find the configuration for this dashboard here:
 
-* [config_mushroom.yaml](dashboard/lovelace_ehc_config.yaml)
+* [dashboard/lovelace_ehc_config.yaml](dashboard/lovelace_ehc_config.yaml)
 
 The following HACS extensions are required for this dashboard:
 
