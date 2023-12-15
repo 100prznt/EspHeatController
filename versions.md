@@ -1,3 +1,3 @@
 # v1.0
 - Initial version
-- PCB ordered on December 15, 2023
+- 1st PCBs ordered on December 15, 2023
