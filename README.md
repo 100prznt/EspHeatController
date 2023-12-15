@@ -1,4 +1,4 @@
-![CAD rendering HeatController PCB](docu/espheatcontroller_pcb_redering_topview_transparent.png)
+![CAD rendering HeatController PCB](docu/espheatcontroller_pcb_redering_topview_transparent_cropped.png)
 
 # HeatController
 Bang-bang heat controller with 2 channels. ESP8266 based and compatible with Home Assistant.
