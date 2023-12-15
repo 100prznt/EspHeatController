@@ -34,7 +34,7 @@ The following HACS extensions are required for this dashboard:
 * [Mushroom](https://github.com/piitaya/lovelace-mushroom)
 * [UI Card for Better Thermostat](https://github.com/KartoffelToby/better-thermostat-ui-card)
 
-## Anwendung
+## Usage
 As mentioned above, I use the __EspHeatController__ as a frost protector, the ESPHome config [esphome_ehc_config.yaml](esphome_ehc_config.yaml) implements a bang-bang controller for this. Alternatively, the hardware can be configured as a thermostat. It is also possible to control a cooling system in addition to the heater using the two switching channels.
 
 ## Hardware Versions
