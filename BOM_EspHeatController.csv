@@ -12,6 +12,7 @@
 "C305","1u","C-EUC0805","C0805","CAPACITOR, European symbol","WAHR","","","","","","","","","","","",
 "D211","LED_BLUE","CHIP-FLAT-B_0805","LEDC2012X110N_FLAT-B","","FALSCH","WAHR","LED","BLUE","","CHIP LED FLAT","","","","","","","LED_BLUE"
 "D212","LED_BLUE","CHIP-FLAT-B_0805","LEDC2012X110N_FLAT-B","","WAHR","","LED","BLUE","","CHIP LED FLAT","","","","","","","LED_BLUE"
+"D222","LED_BLUE","CHIP-FLAT-B_0805","LEDC2012X110N_FLAT-B","","WAHR","","LED","BLUE","","CHIP LED FLAT","","","","","","","LED_BLUE"
 "D311","LED_BLUE","CHIP-FLAT-B_0805","LEDC2012X110N_FLAT-B","","WAHR","","LED","BLUE","","CHIP LED FLAT","","","","","","","LED_BLUE"
 "D312","LED_BLUE","CHIP-FLAT-B_0805","LEDC2012X110N_FLAT-B","","WAHR","","LED","BLUE","","CHIP LED FLAT","","","","","","","LED_BLUE"
 "D411","1N4148W","DIODE_1N4148W-7-F_SOD123G","SOD3715X135","Diode Rectifier - Popular parts","FALSCH","WAHR","Diode","","","DIODE GEN PURP 100V 300MA SOD123 ","Diodes Incorporated","","","","2675147","","1N4148W"
@@ -38,8 +39,12 @@
 "R201","27R","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
 "R202","27R","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
 "R203","470","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
+"R204","1K5","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
+"R205","10K","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
+"R206","1K5","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
 "R211","220","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
 "R212","220","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
+"R222","220","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
 "R301","10k","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
 "R311","500R","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
 "R312","500R","R-EU_R0603","R0603","RESISTOR, European symbol","WAHR","","","","","","","","","","","",
