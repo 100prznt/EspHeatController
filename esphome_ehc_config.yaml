@@ -55,13 +55,14 @@ switch:
     id: heater_relay_2
     name: "Heater Relay CH2"
 
-# DS18B20 sensors
+
 sensor:
   - platform: uptime
     name: "HeatController Uptime"
   - platform: wifi_signal
     name: "HeatController WiFi Signal"
     update_interval: 60s
+    # DS18B20 sensors
   - platform: dallas
     address: <uid of DS18B20, end with ...aa28>
     id: heater_sensor_1
