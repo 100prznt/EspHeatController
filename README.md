@@ -41,3 +41,8 @@ As mentioned above, I use the __EspHeatController__ as a frost protector, the ES
 See [versions.md](versions.md) for hardware version details.
 
 ![CAD rendering EspHeatController PCB w/o packages](docu/ehc_pcbonly_redering_topview_cropped.png)
+
+### New Features
+Features for new hardware versions.
+
+* [ ] Onboard temperature sensor
