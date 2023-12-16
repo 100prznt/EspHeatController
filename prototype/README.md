@@ -9,3 +9,4 @@ The idea to create the __EspHeatController__ was born out of necessity. Unexpect
 * [XICOOLEE - 2ch Relay Modul](https://amzn.to/3TtgmDJ) 3.3 / 5 V version
 * [DS18B20 Sensor](https://amzn.to/48bSDw8)
 * [Traco Power - TMP 10-105-J](https://www.tracopower.com/de/deu/model/tmpw-10-105-j)
+* [3d printed mounting plate](Einsatz_TK_PC_1813_11_tm.stl)
