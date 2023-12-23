@@ -46,3 +46,4 @@ See [versions.md](versions.md) for hardware version details.
 Features for new hardware versions.
 
 * [ ] Onboard temperature sensor
+* [ ] X202: Use stadard FTDI header pin assigment
