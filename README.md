@@ -47,3 +47,4 @@ Features for new hardware versions.
 
 * [ ] Onboard temperature sensor
 * [ ] X202: Use stadard FTDI header pin assigment
+* [ ] Hardware lock between both relais (to use as 2-way motor switch)
