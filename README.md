@@ -49,3 +49,4 @@ Features for new hardware versions.
 * [ ] X202: Use stadard FTDI header pin assigment
 * [ ] Hardware lock between both relays (to use as 2-way motor switch)
 * [ ] Hardware lock for the relays in boot state (check an [IO expander](https://esphome.io/#miscellaneous-components))
+* [ ] Expand space between PE and GND
