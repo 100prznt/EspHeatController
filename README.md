@@ -50,3 +50,7 @@ Features for new hardware versions.
 * [ ] Hardware lock between both relays (to use as 2-way motor switch)
 * [ ] Hardware lock for the relays in boot state (check an [IO expander](https://esphome.io/#miscellaneous-components))
 * [ ] Expand space between PE and GND
+
+## Known bugs in HW rev. v1.0
+* [ ] Different resistor packages (R0603 vs. R0805W)
+* [ ] IC 301 invalide function table for USB power only
