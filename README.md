@@ -54,3 +54,4 @@ Features for new hardware versions.
 ## Known bugs in HW rev. v1.0
 * [ ] Different resistor packages (R0603 vs. R0805W)
 * [ ] IC 301 invalide function table for USB power only
+* [ ] IC300 (LDO1777) thermal != gnd 
