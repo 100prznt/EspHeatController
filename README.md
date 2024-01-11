@@ -41,7 +41,10 @@ As mentioned above, I use the __EspHeatController__ as a frost protector, the ES
 
 ### Datasheets
 * [FTDI FT232BL](https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf)
-* 
+* [STMicroelectronics LD1117S]([https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf](http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf))
+* [TI TPS2104](https://www.ti.com/lit/gpn/tps2104)
+* [Rohm UMH3N](https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/umh3ntn-e.pdf)
+* [AI Thinker ESP8266MOD](https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_product_specification_en.pdf)
 
 ## Hardware Versions
 See [versions.md](versions.md) for hardware version details.
@@ -50,9 +53,9 @@ See [versions.md](versions.md) for hardware version details.
 
 ### Known bugs in HW rev. v1.0
 * [ ] Different resistor packages (R0603 vs. R0805W)
-* [ ] IC 301 invalide function table for USB power only
-* [ ] IC300 (LDO1777) thermal != gnd
-* [ ] Logiclevel for FTDI must be 5 V on RST pin
+* [ ] IC301 invalide function table for USB power only
+* [ ] IC300 (LD1117S) thermal != gnd
+* [ ] IC200 (FT232BL) logiclevel for RST pin must be 5 V
 
 * [ ] 
 ### Features for next version
