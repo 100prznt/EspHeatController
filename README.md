@@ -67,6 +67,6 @@ Features for new hardware versions.
 * [ ] Hardware lock for the relays in boot state (check an [IO expander](https://esphome.io/#miscellaneous-components))
 * [ ] Expand space between PE and GND
 * [ ] Testpins for 5 V power supply
-* [ ] Change FT232BL to FT232RNL or external programmer
+* [ ] Change FT232BL to [FT232RNL](https://ftdichip.com/wp-content/uploads/2023/03/DS_FT232RN.pdf) or external programmer
 
 
