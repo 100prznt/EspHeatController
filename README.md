@@ -37,12 +37,25 @@ The following HACS extensions are required for this dashboard:
 ## Usage
 As mentioned above, I use the __EspHeatController__ as a frost protector, the ESPHome config [esphome_ehc_config.yaml](esphome_ehc_config.yaml) implements a bang-bang controller for this. Alternatively, the hardware can be configured as a thermostat. It is also possible to control a cooling system in addition to the heater using the two switching channels.
 
+## Function and description
+
+### Datasheets
+* [FTDI FT232BL](https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf)
+* 
+
 ## Hardware Versions
 See [versions.md](versions.md) for hardware version details.
 
 ![CAD rendering EspHeatController PCB w/o packages](docu/ehc_pcbonly_redering_topview_cropped.png)
 
-### New Features
+### Known bugs in HW rev. v1.0
+* [ ] Different resistor packages (R0603 vs. R0805W)
+* [ ] IC 301 invalide function table for USB power only
+* [ ] IC300 (LDO1777) thermal != gnd
+* [ ] Logiclevel for FTDI must be 5 V on RST pin
+
+* [ ] 
+### Features for next version
 Features for new hardware versions.
 
 * [ ] Onboard temperature sensor
@@ -52,7 +65,4 @@ Features for new hardware versions.
 * [ ] Expand space between PE and GND
 * [ ] Testpins for 5 V power supply
 
-## Known bugs in HW rev. v1.0
-* [ ] Different resistor packages (R0603 vs. R0805W)
-* [ ] IC 301 invalide function table for USB power only
-* [ ] IC300 (LDO1777) thermal != gnd 
+
