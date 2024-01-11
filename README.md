@@ -41,7 +41,7 @@ As mentioned above, I use the __EspHeatController__ as a frost protector, the ES
 
 ### Datasheets
 * [FTDI FT232BL](https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf)
-* [STMicroelectronics LD1117S]([https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf](http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf))
+* [STMicroelectronics LD1117S](http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf)
 * [TI TPS2104](https://www.ti.com/lit/gpn/tps2104)
 * [Rohm UMH3N](https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/umh3ntn-e.pdf)
 * [AI Thinker ESP8266MOD](https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_product_specification_en.pdf)
