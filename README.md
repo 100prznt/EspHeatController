@@ -61,7 +61,7 @@ See [versions.md](versions.md) for hardware version details.
 Features for new hardware versions.
 
 * [ ] Onboard temperature sensor
-* [ ] X202: Use stadard FTDI header pin assigment
+* [ ] X202: Use stadard FTDI header pin assigment ([Datasheet TTL-232R](https://ftdichip.com/wp-content/uploads/2023/07/DS_TTL-232R_CABLES.pdf))
 * [ ] Hardware lock between both relays (to use as 2-way motor switch)
 * [ ] Hardware lock for the relays in boot state (check an [IO expander](https://esphome.io/#miscellaneous-components))
 * [ ] Expand space between PE and GND
