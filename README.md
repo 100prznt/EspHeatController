@@ -57,7 +57,6 @@ See [versions.md](versions.md) for hardware version details.
 * [ ] IC300 (LD1117S) thermal != gnd
 * [ ] IC200 (FT232BL) logiclevel for RST pin must be 5 V
 
-* [ ] 
 ### Features for next version
 Features for new hardware versions.
 
