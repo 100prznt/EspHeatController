@@ -35,7 +35,7 @@ captive_portal:
 # Status LED
 status_led:
   pin:
-    number: GPIO
+    number: GPIO13
     inverted: true
 
 # 1-wire config
