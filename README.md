@@ -37,20 +37,35 @@ The following HACS extensions are required for this dashboard:
 ## Usage
 As mentioned above, I use the __EspHeatController__ as a frost protector, the ESPHome config [esphome_ehc_config.yaml](esphome_ehc_config.yaml) implements a bang-bang controller for this. Alternatively, the hardware can be configured as a thermostat. It is also possible to control a cooling system in addition to the heater using the two switching channels.
 
+## Function and description
+
+### Datasheets
+* [FTDI FT232BL](https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf)
+* [STMicroelectronics LD1117S](http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf)
+* [TI TPS2104](https://www.ti.com/lit/gpn/tps2104)
+* [Rohm UMH3N](https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/umh3ntn-e.pdf)
+* [AI Thinker ESP8266MOD](https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_product_specification_en.pdf)
+
 ## Hardware Versions
 See [versions.md](versions.md) for hardware version details.
 
 ![CAD rendering EspHeatController PCB w/o packages](docu/ehc_pcbonly_redering_topview_cropped.png)
 
-### New Features
+### Known bugs in HW rev. v1.0
+* [ ] Different resistor packages (R0603 vs. R0805W)
+* [ ] IC301 invalide function table for USB power only
+* [ ] IC300 (LD1117S) thermal != gnd
+* [ ] IC200 (FT232BL) logiclevel for RST pin must be 5 V
+
+### Features for next version
 Features for new hardware versions.
 
 * [ ] Onboard temperature sensor
-* [ ] X202: Use stadard FTDI header pin assigment
+* [ ] X202: Use stadard FTDI header pin assigment ([Datasheet TTL-232R](https://ftdichip.com/wp-content/uploads/2023/07/DS_TTL-232R_CABLES.pdf))
 * [ ] Hardware lock between both relays (to use as 2-way motor switch)
 * [ ] Hardware lock for the relays in boot state (check an [IO expander](https://esphome.io/#miscellaneous-components))
 * [ ] Expand space between PE and GND
+* [ ] Testpins for 5 V power supply
+* [ ] Change FT232BL to [FT232RNL](https://ftdichip.com/wp-content/uploads/2023/03/DS_FT232RN.pdf) or external programmer
 
-## Known bugs in HW rev. v1.0
-* [ ] Different resistor packages (R0603 vs. R0805W)
-* [ ] IC 301 invalide function table for USB power only
+
